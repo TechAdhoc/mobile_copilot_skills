@@ -1,1 +1,1 @@
-# mobile_copilot_skills
+# Mobile Copilot Initial Skills and Guard Rails
