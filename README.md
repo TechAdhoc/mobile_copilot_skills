@@ -1,1 +1,1 @@
-# Mobile Copilot Initial Skills and Guard Rails
+# Mobile Copilot Initial Skills and Guard Rails Kit
