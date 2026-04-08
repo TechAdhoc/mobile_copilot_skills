@@ -1,0 +1,46 @@
+# ─── Android / Gradle ───────────────────────────────────────────────────────
+*.iml
+.gradle/
+local.properties          # API keys, SDK path — NEVER commit
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+
+# ─── Security — credentials & secrets ───────────────────────────────────────
+*.keystore                # signing keystores
+*.jks                     # Java keystores
+*.p12                     # PKCS12 keystores
+keystore.properties       # keystore passwords/aliases
+google-services.json      # Firebase config with API key — keep out of VCS
+GoogleService-Info.plist  # iOS Firebase config (if cross-platform)
+.env                      # environment variable files
+.env.*
+secrets/                  # any secrets directory
+*_secret*
+*_private*
+*apikey*
+*api_key*
+
+# ─── IDE ────────────────────────────────────────────────────────────────────
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── macOS ──────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ─── ProGuard ───────────────────────────────────────────────────────────────
+# Keep mapping files for crash symbolication (do NOT gitignore these)
+# /app/mapping/         ← intentionally not ignored
+
+# ─── Test results ───────────────────────────────────────────────────────────
+test-results/
